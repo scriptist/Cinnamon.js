@@ -1,6 +1,11 @@
 Cinnamon.js
 ====================
 
+Demo
+---------------------
+
+[Check it out here.](http://scriptist.github.io/Cinnamon.js/demo.html)
+
 What is it?
 ---------------------
 
