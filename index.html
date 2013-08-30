@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Cinnamon.js by scriptist</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Cinnamon.js</h1>
+        <p>JS library for displaying a slideshow of cinemagraphs</p>
+
+        <p class="view"><a href="https://github.com/scriptist/Cinnamon.js">View the Project on GitHub <small>scriptist/Cinnamon.js</small></a></p>
+
+
+        <ul>
+          <li><a href="https://github.com/scriptist/Cinnamon.js/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/scriptist/Cinnamon.js/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/scriptist/Cinnamon.js">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h1>
+<a name="cinnamonjs" class="anchor" href="#cinnamonjs"><span class="octicon octicon-link"></span></a>Cinnamon.js</h1>
+
+<h2>
+<a name="what-is-it" class="anchor" href="#what-is-it"><span class="octicon octicon-link"></span></a>What is it?</h2>
+
+<p>Cinnamon.js is an easy and convenient way to make a slideshow of cinemagraphs (though it will work just as well with any other videos or images).</p>
+
+<p>It supports HTML5 videos, GIF animations, and also static image formats.</p>
+
+<h2>
+<a name="how-do-i-make-it-work" class="anchor" href="#how-do-i-make-it-work"><span class="octicon octicon-link"></span></a>How do I make it work?</h2>
+
+<pre><code>&lt;section class="slideshow"&gt;
+    &lt;video&gt;
+        &lt;source src="/vid/bg1.mp4"&gt;
+    &lt;/video&gt;
+    &lt;img src="/vid/bg3.gif" alt=""&gt;
+&lt;/section&gt;
+&lt;script&gt;
+    cinnamon.init('.slideshow');
+    if (!cinnamon.support)
+        alert('Your browser is not supported - should probably display some fallback content.');
+&lt;/script&gt;
+</code></pre>
+
+<h2>
+<a name="support" class="anchor" href="#support"><span class="octicon octicon-link"></span></a>Support</h2>
+
+<p>Cinnamon.js makes use of the following properties:</p>
+
+<ul>
+<li>background-size: cover (for images)</li>
+<li>min-height &amp; min-width (also for images)</li>
+<li>HTML5 videos (for videos)</li>
+</ul><p>As a result, it supports IE8+ for images, and IE9+ for HTML5 videos.</p>
+
+<h2>
+<a name="awesome" class="anchor" href="#awesome"><span class="octicon octicon-link"></span></a>Awesome!</h2>
+
+<p>You think it's awesome? Thanks.</p>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/scriptist">scriptist</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
+</html>
